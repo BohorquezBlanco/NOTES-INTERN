@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organización de Notas Internas</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background: #f5f7fb;
+        }
+
+        .navbar{
+            box-shadow: 0 2px 10px rgba(0,0,0,.08);
+        }
+
+        .hero{
+            background: linear-gradient(135deg,#0d6efd,#4f8ef7);
+            color:#fff;
+            padding:80px 0;
+            border-radius:0 0 30px 30px;
+        }
+
+        .card-info{
+            margin-top:-50px;
+            border:none;
+            border-radius:20px;
+            box-shadow:0 10px 30px rgba(0,0,0,.08);
+        }
+
+        .icon{
+            width:70px;
+            height:70px;
+            background:#e9f2ff;
+            color:#0d6efd;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:32px;
+            border-radius:50%;
+            margin:auto;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+            📁 Gestión Documental
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Notas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Reportes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Encabezado -->
+<section class="hero text-center">
+    <div class="container">
+        <h1 class="display-4 fw-bold">
+            Organización de Notas Internas
+        </h1>
+
+        <p class="lead mt-3">
+            Administre, clasifique y consulte las notas internas de manera
+            organizada, facilitando el seguimiento de la documentación y
+            mejorando la comunicación entre las diferentes áreas de la institución.
+        </p>
+    </div>
+</section>
+
+<!-- Tarjeta -->
+<div class="container">
+    <div class="card card-info">
+        <div class="card-body p-5 text-center">
+
+            <div class="icon mb-4">
+                📄
+            </div>
+
+            <h3 class="fw-bold mb-3">
+                Sistema de Organización
+            </h3>
+
+            <p class="text-muted">
+                Este módulo permite registrar, organizar y administrar las notas
+                internas de forma eficiente, manteniendo un control adecuado de la
+                documentación institucional y optimizando los procesos administrativos.
+            </p>
+
+            <button class="btn btn-primary px-4 mt-3">
+                Comenzar
+            </button>
+
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
