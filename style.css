@@ -1,37 +1,193 @@
-        body {
-            background-color: #f4f6f9;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+/*=====================================
+    ESTILOS GENERALES PARA BODY PRESENTADA EN CLASES 1 
+======================================*/
 
-        header {
-            background-color: #083307;
-            color: white;
-            padding: 20px;
-        }
+body{
 
-        header nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 8px;
-        }
+    margin:0;
 
-        header nav a:hover {
-            text-decoration: underline;
-        }
+    font-family:Arial, Helvetica, sans-serif;
 
-        .contenido {
-            margin-top: 40px;
-        }
+    background:#eef8f1;
 
-        .card {
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-        }
+    display:flex;
 
-        footer {
-            background-color: #032911;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            margin-top: 40px;
-        }
+    flex-direction:column;
+
+    min-height:100vh;
+
+}
+
+
+/*=====================================
+        ENCABEZADO DE MI PAGINA 
+======================================*/
+
+.encabezado{
+
+    background:linear-gradient(135deg,#063f0a,#2d5e2f,#43a047);
+
+    color:white;
+
+    padding:35px 20px;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+
+}
+
+.encabezado h1{
+
+    font-weight:bold;
+
+    margin-bottom:10px;
+
+}
+
+
+/*=====================================
+    MENÚ DE NAVEGACIÓN
+======================================*/
+
+/*
+    Flexbox permite organizar los enlaces
+    horizontalmente y distribuir el espacio
+    de forma uniforme.
+*/
+
+nav{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+}
+
+/*
+    Estilo de los enlaces
+*/
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    padding:10px 18px;
+
+    border-radius:8px;
+
+    transition:.3s;
+
+}
+
+/*
+    Efecto al pasar el cursor.
+*/
+
+nav a:hover{
+
+    background:white;
+
+    color:#2e7d32;
+
+}
+
+
+/*=====================================
+    CONTENIDO
+======================================*/
+
+.contenido{
+
+    flex:1;
+
+    padding:50px 20px;
+
+}
+
+
+/*=====================================
+    TARJETA
+======================================*/
+
+.card{
+
+    border:none;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+
+}
+
+
+/*=====================================
+    BOTÓN
+======================================*/
+
+.btn-success{
+
+    padding:10px 25px;
+
+    font-weight:bold;
+
+}
+
+
+/*=====================================
+    PIE DE PÁGINA
+======================================*/
+
+.pie{
+
+    background:#1b5e20;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+}
+
+
+/*=====================================
+    RESPONSIVE
+======================================*/
+
+/*
+    Cuando la pantalla tenga un ancho
+    menor o igual a 768 píxeles,
+    el menú cambiará de horizontal
+    a vertical para mejorar la lectura. 
+*/
+
+@media (max-width:768px){
+
+    nav{
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:12px;
+
+    }
+
+    .encabezado{
+
+        padding:25px 15px;
+
+    }
+
+    .contenido{
+
+        padding:25px 15px;
+
+    }
+
+}
