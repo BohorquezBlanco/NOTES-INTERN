@@ -42,3 +42,27 @@ body.claro .btn-success{
     background:#43a047;
     border-color:#43a047;
 }
+
+
+
+.danger{
+    display: none;
+    margin-top:  14px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.danger.error{
+    display: block;
+    background-color: red;
+    color: pink;
+    border-left: 4px solid navy;
+}
+
+.danger.exito{
+    display: block;
+    background-color: green;
+    color: pink;
+    border-left: 4px solid greenyellow;   
+}

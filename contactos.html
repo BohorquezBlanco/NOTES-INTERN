@@ -11,7 +11,7 @@
 
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="./css.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
 ```
 
 </head>
@@ -47,7 +47,7 @@
                 </p>
 
                 <!-- Formulario -->
-                <form>
+                <form id="form-contacto" novalidate>
 
                     <!-- Nombre -->
                     <div class="mb-3">
@@ -119,7 +119,7 @@
                             Enviar mensaje
                         </button>
                     </div>
-
+                    <p id="error-mensage" class="danger"></p>
                 </form>
 
             </div>
@@ -136,6 +136,9 @@
         &copy; 2026 Gestión Documental
     </p>
 </footer>
+
+<script src="./script.js"></script>
+<script src="./FormsControl.js"></script>
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
