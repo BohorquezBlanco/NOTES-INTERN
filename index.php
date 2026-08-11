@@ -27,13 +27,13 @@
         <!-- Menú principal -->
         <nav class="mt-4">
 
-            <a href="./index.html">Inicio</a>
+            <a href="./index.php">Inicio</a>
 
             <a href="#">Notas Internas</a>
 
             <a href="#">Reportes</a>
 
-            <a href="./contactos.html">Contacto</a>
+            <a href="./contactos.php">Contacto</a>
                 <button id="btnTema" class="btn btn-light mt-3">
                     🌙 Modo Oscuro
                 </button>
