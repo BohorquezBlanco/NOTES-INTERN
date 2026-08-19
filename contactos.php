@@ -24,8 +24,8 @@
     <h1>Gestión Documental</h1>
 
     <nav class="mt-3">
-        <a href="./index.html">Inicio</a>
-        <a href="./contactos.html">Contacto</a>
+        <a href="./index.php">Inicio</a>
+        <a href="./contactos.php">Contacto</a>
     </nav>
 </header>
 
@@ -46,8 +46,7 @@
                     Complete el siguiente formulario y nos comunicaremos con usted.
                 </p>
 
-                <!-- Formulario -->
-                <form id="form-contacto" novalidate>
+                <form id="form-contacto" action="procesar.php" method="POST">
 
                     <!-- Nombre -->
                     <div class="mb-3">
@@ -119,7 +118,7 @@
                             Enviar mensaje
                         </button>
                     </div>
-                    <p id="error-mensage" class="danger"></p>
+
                 </form>
 
             </div>
@@ -137,8 +136,7 @@
     </p>
 </footer>
 
-<script src="./script.js"></script>
-<script src="./FormsControl.js"></script>
+
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>

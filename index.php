@@ -13,7 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Hoja de estilos personalizada -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
@@ -27,13 +27,13 @@
         <!-- Menú principal -->
         <nav class="mt-4">
 
-            <a href="./index.html">Inicio</a>
+            <a href="./index.php">Inicio</a>
 
             <a href="#">Notas Internas</a>
 
             <a href="#">Reportes</a>
 
-            <a href="./contactos.html">Contacto</a>
+            <a href="./contactos.php">Contacto</a>
                 <button id="btnTema" class="btn btn-light mt-3">
                     🌙 Modo Oscuro
                 </button>
